@@ -1,0 +1,119 @@
+body{
+    height: 600px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Kristen ITC;
+    background-color: aquamarine;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(27, 16, 128);
+    /* align-items: center; */
+}
+
+.blocHeader{
+    text-align: center;
+    margin: 40px;
+    padding-top: 10px;
+    width: 500px;
+    border: 3px solid rgb(0, 213, 255);
+    border-radius : 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blocHeader div{
+    width: 60%;
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(0, 213, 255);
+    padding: 8px;
+    border-radius: 10px;
+}
+#blocAnimaux{
+    display: flex;
+    justify-content: center;
+}
+.animal img{
+    width: 100%;
+    height: 250px;
+}
+.animal img{
+    width: 100%;
+    height: 255px;
+    /* opacity: 1.2em; */
+}
+.animal h5{
+    margin:8px;
+    color: rgb(27, 16, 128);
+}
+.animal{
+    padding: 10px;
+    width: 250px;
+    height: 350px;
+    margin-left: 2%;
+    text-align: center;
+    /* box-shadow: 0px 0px 0px 1px rgb(126, 125, 125); */
+    
+}
+.animal:hover{
+    /* background-color: rgb(71, 174, 139); */
+    transform: scale(0.9);
+}
+.animal:hover img{
+    transform: scale(1.1);
+    opacity: 0.4;
+}
+.animal:hover h5{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(26, 138, 36);
+}
+
+audio{
+    width: 100%;
+}
+@media screen and (max-width: 1400px) {
+    .animal{
+        width: 300px;
+    }
+    #blocAnimaux{
+        flex-wrap: wrap;
+        /* align-content: space-between; */
+        /* margin-bottom: 5px; */
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .animal{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .animal{
+        width: 100%;
+    }
+}
+footer{
+    margin-top: 80px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    
+    padding: 10px;
+    width: 95%;
+    color: darkslategrey;
+    border-top: 2px solid rgb(126, 125, 125);
+    border-bottom: 2px solid rgb(126, 125, 125);
+    
+}
